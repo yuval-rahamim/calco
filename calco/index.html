@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calc</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="backg">
+        <div id="top">
+            <h1 id="quer"></h1>
+            <div id="last">
+                <h1 id="lastNum"></h1>
+                <h1 id="lc"></h1>
+            </div>
+        </div>
+        <img class="weirdline"/>
+        <div class="buttons">
+            <button id="c" onclick="press('c')">C</button>
+            <button id="ce" onclick="press('ce')">CE</button>
+            <button id="del" onclick="press('del')">del</button>
+        </div>
+        <div class="buttons">
+            <button id="one" onclick="press(1)">1</button>
+            <button id="tw" onclick="press(2)">2</button>
+            <button id="th" onclick="press(3)">3</button>
+        </div>
+        <div class="buttons">
+            <button id="fo" onclick="press(4)">4</button>
+            <button id="fi"  onclick="press(5)">5</button>
+            <button id="si" onclick="press(6)">6</button>
+        </div>
+        <div class="buttons">
+            <button id="se" onclick="press(7)">7</button>
+            <button id="ei" onclick="press(8)">8</button>
+            <button id="ni" onclick="press(9)">9</button>
+        </div>
+        <div class="buttons">
+            <button id="dot" onclick="press('.')">.</button>
+            <button id="z" onclick="press(0)">0</button>
+        </div>
+        <img class="weirdline"/>
+        <div class="buttons">
+            <button id="plus" onclick="press('+')">+</button>
+            <button id="minus" onclick="press('-')">-</button>
+        </div>
+        <div class="buttons">
+            <button id="divide" onclick="press('/')">/</button>
+            <button id="mult" onclick="press('*')">*</button>
+        </div>
+        <div class="buttons">
+            <button id="equal" onclick="eq()">=</button>
+        </div>
+    </div>
+
+    <script src="code.js"></script> 
+</body>
+</html>
